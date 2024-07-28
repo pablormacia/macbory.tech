@@ -1,0 +1,59 @@
+.container {
+    background-image: url('../assets/background3-mobile.png');
+    background-size: cover;
+    width: 100%;
+    height: 1250px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.active{
+    padding-bottom: 8px;
+    position: relative;
+    /* border-bottom: 2px salmon solid; */
+}
+
+.active::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px; /* Altura del borde */
+    width: 100%;
+    background: linear-gradient(90deg, #169DE9 7.16%, #9611A2 100%);
+}
+
+.description{
+    padding:32px;
+}
+
+.description h2{
+    color: #F799FF;
+}
+
+.description p, .description li{
+    font-size: 12px;
+}
+
+.description ul{
+    padding-left: 16px;
+}
+
+.description li{
+    padding-bottom: 8px;
+}
+
+.bannerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerContainer img{
+    width: 100%;
+}

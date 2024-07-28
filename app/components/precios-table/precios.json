@@ -1,0 +1,86 @@
+[
+    {
+        "description": "Diagnóstico (bonificado)",
+        "precio": "$7200"
+    },
+    {
+        "description": "Servicio técnico a domicilio por hora",
+        "precio": "$15800"
+    },
+    {
+        "description": "Servicio técnico remoto por hora",
+        "precio": "$7200"
+    },
+    {
+        "description": "Retiro y entrega normal 96 Hs",
+        "precio": "$7200"
+    },
+    {
+        "description": "Retiro y entrega Express 24 Hs",
+        "precio": "$14300"
+    },
+    {
+        "description": "Formateo e instación (sin backup)",
+        "precio": "$28600"
+    },
+    {
+        "description": "Instalación de programas (c/u)",
+        "precio": "$7200"
+    },
+    {
+        "description": "Instalación de drivers",
+        "precio": "$7200"
+    },
+    {
+        "description": "Eliminación de malware",
+        "precio": "$8600"
+    },
+    {
+        "description": "Armado e instalación de PC",
+        "precio": "$40100"
+    },
+    {
+        "description": "Armado e instalación de PC",
+        "precio": "$40100"
+    },
+    {
+        "description": "Armado e instalación de PC",
+        "precio": "$40100"
+    },
+    {
+        "description": "Instalación/reemplazo de hardware",
+        "precio": "$10100"
+    },
+    {
+        "description": "Limpieza de hardware PC",
+        "precio": "$14300"
+    },
+    {
+        "description": "Limpieza de hardware Notebook",
+        "precio": "$21500"
+    },
+    {
+        "description": "Limpieza de hardware Notebook",
+        "precio": "$21500"
+    },
+    {
+        "description": "Cambio flex notebook",
+        "precio": "$20100"
+    },
+    {
+        "description": "Cambio teclado notebook",
+        "precio": "$14300"
+    },
+    {
+        "description": "Cambio pantalla notebook",
+        "precio": "$25800"
+    },
+    {
+        "description": "Reparación de bisagras notebook",
+        "precio": "$25800"
+    },
+    {
+        "description": "Hard reset celulares y tablets",
+        "precio": "$15800"
+    }
+]

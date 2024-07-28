@@ -1,0 +1,44 @@
+.container {
+    background-image: url('../assets/background3-mobile.png');
+    background-size: cover;
+    width: 100%;
+    height: 1250px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+
+.description{
+    padding:32px;
+}
+
+.description h2{
+    color: #FFC107;
+}
+
+.description p, .description li{
+    font-size: 12px;
+}
+
+.description ul{
+    padding-left: 16px;
+}
+
+.description li{
+    padding-bottom: 8px;
+}
+
+.bannerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerContainer img{
+    width: 100%;
+}

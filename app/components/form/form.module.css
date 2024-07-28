@@ -1,0 +1,62 @@
+.formContainer{
+    padding: 16px;
+  }
+  
+  .formContainer h2 {
+    font-size:16px;
+    text-align: center;
+    padding-top: 16px;
+  }
+  
+
+
+.formMobile {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formRow {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .halfWidth  {
+    width: 48%;
+  }
+  
+  .fullWidth {
+    width: 100%;
+  }
+  
+  .formMobile label {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .formMobile input, .formMobile
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .formMobile textarea {
+    resize: vertical;
+  }
+  
+  .formMobile button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #FFC107 0%, #9611A2 50%, #169DE9 100%);
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+  }

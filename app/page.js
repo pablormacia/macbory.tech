@@ -1,95 +1,101 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./page.module.css";
+import Form from "./components/form/Form";
+import Map from "./components/map/Map";
+import Footer from "./components/footer/Footer";
+import Navbar from "./components/navbar/Navbar";
+import Title from "./components/title/Title";
+import ContratarButton from "./components/contratar-button/ContratarButton";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main>
+      <section className={styles.mainItemsContainer}>
+        <Navbar />
+        <Title title="MacBory Tech" subtitle="Servicios informáticos al alcance de todos" />
+        <div className={styles.cardsContainer}>
+          <div className={styles.cardContainer}>
+            <div className={styles.card}>
+              <Image src={require('@/app/assets/serviciotecnico.png')} alt="Servicio técnico de pc a domicilio en Lanús" />
+              <div>
+                <h3>Servicio técnico de pc</h3>
+                <p>&gt;_ tu computadora como nueva ...</p>
+              </div>
+              <Link href="servicio-tecnico" className={`${styles.btn} ${styles.purpleBackground} ${styles.btnRoundedBottomRight}`}>Ver más</Link>
+            </div>
+          </div>
+          <div className={styles.cardContainer}>
+            <div className={styles.card}>
+              <Image src={require('@/app/assets/desarrolloweb.png')} alt="Desarrollo web en Lanús" />
+              <div>
+                <h3>Desarrollo web</h3>
+                <p>&gt;_ tu marca potenciada en las redes...</p>
+              </div>
+              <a href="#" className={`${styles.btn} ${styles.blueBackground} ${styles.btnRoundedBottomRight}`}>Ver más</a>
+            </div>
+          </div>
+          <div className={styles.cardContainer}>
+            <div className={styles.card}>
+              <Image src={require('@/app/assets/clasesparticulares.png')} alt="Clases particulares de informática en Lanús" />
+              <div>
+                <h3>Clases particulares</h3>
+                <p>&gt;_ tus conocimientos a la vanguardia...</p>
+              </div>
+              <a href="#" className={`${styles.btn} ${styles.yellowBackground} ${styles.btnRoundedBottomRight}`}>Ver más</a>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
+      <section className={styles.secondaryItemsContainer}>
+        <div className={styles.card2}>
+          <div>
+            <h2 className={styles.purpleText}>Servicio técnico de pc</h2>
+            <p>¿Cuándo es necesario un service?</p>
+            <ul>
+              <li>- Cuando tu pc anda lenta</li>
+              <li>- Sospechás que puede haber un "virus"</li>
+              <li>- Necesitás algún programa particular</li>
+              <li>- Tu pc hace ruidos extraños</li>
+            </ul>
+            <br />
+            <a href="#" className={`${styles.btn} ${styles.purpleBackground} ${styles.btnRoundedAll}`}>Ver más</a>
+          </div>
+          <Image src={require('@/app/assets/serviciotecnico2.png')} alt="Servicio técnico de pc a domicilio en Lanús" />
+        </div>
+        <div className={`${styles.gradientLine} ${styles.gradientLine1} `}></div>
+        <div className={styles.card2}>
+          <Image src={require('@/app/assets/desarrolloweb2.png')} alt="Desarrollo web en Lanús" />
+          <div>
+            <h2 className={styles.blueText}>Desarrollo web</h2>
+            <p>¿Tu marca ya está online?
+              <br />
+              La presencia en internet es importante.Por eso, creemos que tener una página web de calidad es una excelente idea para reforzar tu marca.
+            </p>
+            <br />
+            <a href="#" className={`${styles.btn} ${styles.blueBackground} ${styles.btnRoundedAll}`}>Ver más</a>
+          </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+        </div>
+        <div className={`${styles.gradientLine} ${styles.gradientLine2} `}></div>
+        <div className={styles.card2}>
+          <div>
+            <h2 className={styles.blueText}>Desarrollo web</h2>
+            <p>¿Necesitás ayuda?
+              <br />
+              Ya seas un estudiante de nivel secundario, o estés realizando un curso de programación y necesites apoyo,estamos para ayudarte.
+            </p>
+            <br />
+            <a href="#" className={`${styles.btn} ${styles.yellowBackground} ${styles.btnRoundedAll}`}>Ver más</a>
+          </div>
+          <Image src={require('@/app/assets/clasesparticulares2.png')} alt="Clases particulares en Lanús" />
+        </div>
+      </section>
+      <ContratarButton />
+      <hr />
+      <Form />
+      <Map />
+      <Footer />
     </main>
   );
 }

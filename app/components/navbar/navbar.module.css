@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    align-items: center;
+    gap: 8px;
+    padding: 16px;
+    padding-top: 32px;
+  }
+  
+  .searchInputContainer {
+    position: relative;
+    width: 271px;
+  }
+  
+  .searchInput {
+    width: 100%;
+    padding: 8px 40px 8px 32px;
+    /* Ajusta el padding para dejar espacio para el icono */
+    border-radius: 20px;
+    opacity: 0.7;
+    color: #202020;
+  }
+  
+  
+  .searchIcon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    /* Evita que el icono interfiera con el input */
+  }
+
+  
