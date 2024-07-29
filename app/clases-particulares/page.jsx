@@ -39,7 +39,7 @@ function page() {
         <ul>
           <li>Director y docente de informática en Colegio Lausanne  </li>
           <li>Profesor en curso de desarrollo de aplicaciones con React Native en Coderhouse</li>
-          <li>Profesor de alfabetización tecnológica en "Plan Joven"</li>
+          <li>Profesor de alfabetización tecnológica en Plan Joven</li>
         </ul>
       </div>
       <ContratarButton />
