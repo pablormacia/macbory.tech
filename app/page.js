@@ -54,7 +54,7 @@ export default function Home() {
             <p>¿Cuándo es necesario un service?</p>
             <ul>
               <li>- Cuando tu pc anda lenta</li>
-              <li>- Sospechás que puede haber un "virus"</li>
+              <li>- Sospechás que puede haber un &quot;virus&quot;</li>
               <li>- Necesitás algún programa particular</li>
               <li>- Tu pc hace ruidos extraños</li>
             </ul>
