@@ -7,14 +7,18 @@ import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Title from "./components/title/Title";
 import ContratarButton from "./components/contratar-button/ContratarButton";
+import HoverImage from "./components/motion/HoverImage";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <section className={styles.mainItemsContainer}>
         <Navbar />
         <Title title="MacBory Tech" subtitle="Servicios informáticos al alcance de todos" />
-        <div className={styles.cardsContainer}>
+        <div className={styles.onlyDesktop}>
+          {/* <HoverImage /> */}
+        </div>
+        <div className={`${styles.cardsContainer} ${styles.onlyMobile}`}>
           <div className={styles.cardContainer}>
             <div className={styles.card}>
               <Image src={require('@/app/assets/serviciotecnico.png')} alt="Servicio técnico de pc a domicilio en Lanús" />
@@ -22,7 +26,7 @@ export default function Home() {
                 <h3>Servicio técnico de pc</h3>
                 <p>&gt;_ tu computadora como nueva ...</p>
               </div>
-              <Link href="servicio-tecnico" className={`${styles.btn} ${styles.purpleBackground} ${styles.btnRoundedBottomRight}`}>Ver más</Link>
+              <Link href="/servicio-tecnico-particulares" className={`${styles.btn} ${styles.purpleBackground} ${styles.btnRoundedBottomRight}`}>Ver más</Link>
             </div>
           </div>
           <div className={styles.cardContainer}>
@@ -32,7 +36,7 @@ export default function Home() {
                 <h3>Desarrollo web</h3>
                 <p>&gt;_ tu marca potenciada en las redes...</p>
               </div>
-              <a href="#" className={`${styles.btn} ${styles.blueBackground} ${styles.btnRoundedBottomRight}`}>Ver más</a>
+              <Link href="/desarrollo-web" className={`${styles.btn} ${styles.blueBackground} ${styles.btnRoundedBottomRight}`}>Ver más</Link>
             </div>
           </div>
           <div className={styles.cardContainer}>
@@ -42,12 +46,12 @@ export default function Home() {
                 <h3>Clases particulares</h3>
                 <p>&gt;_ tus conocimientos a la vanguardia...</p>
               </div>
-              <a href="#" className={`${styles.btn} ${styles.yellowBackground} ${styles.btnRoundedBottomRight}`}>Ver más</a>
+              <Link href="/clases-particulares" className={`${styles.btn} ${styles.yellowBackground} ${styles.btnRoundedBottomRight}`}>Ver más</Link>
             </div>
           </div>
         </div>
       </section>
-      <section className={styles.secondaryItemsContainer}>
+      <section className={`${styles.secondaryItemsContainer} ${styles.onlyMobile}`}>
         <div className={styles.card2}>
           <div>
             <h2 className={styles.purpleText}>Servicio técnico de pc</h2>
@@ -59,7 +63,7 @@ export default function Home() {
               <li>- Tu pc hace ruidos extraños</li>
             </ul>
             <br />
-            <a href="#" className={`${styles.btn} ${styles.purpleBackground} ${styles.btnRoundedAll}`}>Ver más</a>
+            <Link href="/servicio-tecnico-particulares" className={`${styles.btn} ${styles.purpleBackground} ${styles.btnRoundedAll}`}>Ver más</Link>
           </div>
           <Image src={require('@/app/assets/serviciotecnico2.png')} alt="Servicio técnico de pc a domicilio en Lanús" />
         </div>
@@ -73,7 +77,7 @@ export default function Home() {
               La presencia en internet es importante.Por eso, creemos que tener una página web de calidad es una excelente idea para reforzar tu marca.
             </p>
             <br />
-            <a href="#" className={`${styles.btn} ${styles.blueBackground} ${styles.btnRoundedAll}`}>Ver más</a>
+            <Link href="/desarrollo-web" className={`${styles.btn} ${styles.blueBackground} ${styles.btnRoundedAll}`}>Ver más</Link>
           </div>
 
         </div>
@@ -86,7 +90,7 @@ export default function Home() {
               Ya seas un estudiante de nivel secundario, o estés realizando un curso de programación y necesites apoyo,estamos para ayudarte.
             </p>
             <br />
-            <a href="#" className={`${styles.btn} ${styles.yellowBackground} ${styles.btnRoundedAll}`}>Ver más</a>
+            <Link href="/clases-particulares" className={`${styles.btn} ${styles.yellowBackground} ${styles.btnRoundedAll}`}>Ver más</Link>
           </div>
           <Image src={require('@/app/assets/clasesparticulares2.png')} alt="Clases particulares en Lanús" />
         </div>
@@ -96,6 +100,6 @@ export default function Home() {
       <Form />
       <Map />
       <Footer />
-    </main>
+    </>
   );
 }

@@ -32,4 +32,23 @@
     /* Evita que el icono interfiera con el input */
   }
 
-  
+  .onlyDesktop {
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    .onlyMobile {
+      display: none;
+    }
+
+    .onlyDesktop{
+      display: block;
+    }
+
+    .menuDesktop{
+      display:flex;
+      gap: 16px;
+      justify-content: flex-end;
+      list-style: none;
+    }
+  }

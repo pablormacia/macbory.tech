@@ -43,3 +43,9 @@ p{
 .yellowText {
   color: #DD9F00;
 }
+
+@media (min-width: 768px) {
+  .only-mobile {
+    display: none;
+  }
+}
