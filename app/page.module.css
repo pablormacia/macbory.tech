@@ -48,13 +48,13 @@
   position: relative;
 }
 
-.card > div {
+.card>div {
   position: absolute;
   top: 12px;
   left: 68px;
 }
 
-.card > a {
+.card>a {
   position: absolute;
   bottom: 8px;
   right: 8px;
@@ -162,6 +162,10 @@
   padding-bottom: 16px;
 }
 
+.onlyDesktop {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .onlyMobile {
     display: none;
@@ -179,4 +183,16 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .desktopFlex{
+    display: flex;
+    justify-content: center;
+    gap:32px;
+  }
+  .desktopWidgetsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
 }
+

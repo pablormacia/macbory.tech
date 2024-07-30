@@ -1,4 +1,4 @@
-
+'use client'
 import ContratarButton from "../components/contratar-button/ContratarButton"
 import Navbar from "../components/navbar/Navbar"
 import PreciosTable from "../components/precios-table/PreciosTable"
@@ -48,8 +48,10 @@ function page() {
         </p>
       </div>
       <ContratarButton />
-      <Form />
-      <Map />
+      <div className="desktopFlex">
+        <Form />
+        <Map />
+      </div>
       <Footer />
     </div>
     

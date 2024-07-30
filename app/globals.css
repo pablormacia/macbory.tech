@@ -48,4 +48,10 @@ p{
   .only-mobile {
     display: none;
   }
+
+  .desktopFlex{
+    display: flex;
+    justify-content: center;
+    gap:32px;
+  }
 }

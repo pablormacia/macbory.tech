@@ -29,10 +29,10 @@ function Navbar() {
                 </svg></Link>
                 <div className={styles.onlyDesktop}>
                     <ul className={styles.menuDesktop}>
-                        <li><Link rel="stylesheet" href="/" >Home</Link></li>
-                        <li><Link rel="stylesheet" href="/servicio-tecnico-particulares" >Servicio técnico</Link></li>
-                        <li><Link rel="stylesheet" href="/desarrollo-web" >Desarrollo web</Link></li>
-                        <li><Link rel="stylesheet" href="/clases-particulares" >Clases particulares</Link></li>
+                        <li><Link  href="/" >Home</Link></li>
+                        <li><Link  href="/servicio-tecnico-particulares" >Servicio técnico</Link></li>
+                        <li><Link  href="/desarrollo-web" >Desarrollo web</Link></li>
+                        <li><Link  href="/clases-particulares" >Clases particulares</Link></li>
                     </ul>
                 </div>
             </div>

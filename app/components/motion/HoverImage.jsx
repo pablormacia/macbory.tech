@@ -1,13 +1,16 @@
-/* import { motion } from 'framer-motion';
+'use client'
+import { motion } from 'framer-motion';
+import styles from './hoverImage.module.css'
 
-const HoverImage = () => {
-  return (
-    <motion.div
-  initial={{ x: "100%" }}
-  animate={{ x: "calc(100vw - 50%)" }}
+function HoverImage({imagePath}) {
+  return(
+<motion.img
+  src={imagePath}
+  className={styles.animatedDiv}
+  whileHover={{ scale: 1.2 }}
 />
+  )
+  
+}
 
-  );
-};
-
-export default HoverImage; */
+export default HoverImage

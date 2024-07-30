@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.css";
@@ -8,15 +9,20 @@ import Navbar from "./components/navbar/Navbar";
 import Title from "./components/title/Title";
 import ContratarButton from "./components/contratar-button/ContratarButton";
 import HoverImage from "./components/motion/HoverImage";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
     <>
+
       <section className={styles.mainItemsContainer}>
+
         <Navbar />
         <Title title="MacBory Tech" subtitle="Servicios informáticos al alcance de todos" />
-        <div className={styles.onlyDesktop}>
-          {/* <HoverImage /> */}
+        <div className={`${styles.onlyDesktop} ${styles.desktopWidgetsContainer}`}>
+          <Link href='/servicio-tecnico-particulares'><HoverImage imagePath="/images/serviciotecnico.png" /></Link>
+          <Link href='/desarrollo-web'><HoverImage imagePath="/images/desarrolloweb.png" /></Link>
+          <Link href='/clases-particulares'><HoverImage imagePath="/images/clasesparticulares.png" /></Link>
         </div>
         <div className={`${styles.cardsContainer} ${styles.onlyMobile}`}>
           <div className={styles.cardContainer}>
@@ -51,7 +57,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className={`${styles.secondaryItemsContainer} ${styles.onlyMobile}`}>
+      <section
+        className={`${styles.secondaryItemsContainer} ${styles.onlyMobile}`}
+      >
         <div className={styles.card2}>
           <div>
             <h2 className={styles.purpleText}>Servicio técnico de pc</h2>
@@ -97,8 +105,11 @@ export default function Home() {
       </section>
       <ContratarButton />
       <hr />
-      <Form />
-      <Map />
+      <div className="desktopFlex">
+        <Form />
+        <Map />
+      </div>
+
       <Footer />
     </>
   );

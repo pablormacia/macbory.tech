@@ -1,4 +1,4 @@
-
+'use client'
 import ContratarButton from "../components/contratar-button/ContratarButton"
 import Navbar from "../components/navbar/Navbar"
 import Title from "../components/title/Title"
@@ -28,8 +28,10 @@ function page() {
         </ul>
       </div>
       <ContratarButton />
-      <Form />
-      <Map />
+      <div className="desktopFlex">
+        <Form />
+        <Map />
+      </div>
       <Footer />
     </div>
     
