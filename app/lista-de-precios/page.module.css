@@ -11,18 +11,30 @@
     gap: 32px;
 }
 
+.active{
+    padding-bottom: 8px;
+    position: relative;
+    /* border-bottom: 2px salmon solid; */
+}
+
+.active::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px; /* Altura del borde */
+    width: 100%;
+    background: linear-gradient(90deg, #169DE9 7.16%, #9611A2 100%);
+}
 
 .description{
     padding:32px;
 }
 
 .description h2{
-    color: #FFC107;
+    color: #F799FF;
 }
 
-.description p, .description li{
-    font-size: 12px;
-}
 
 .description ul{
     padding-left: 16px;
@@ -41,4 +53,11 @@
 
 .bannerContainer img{
     width: 100%;
+}
+
+@media (min-width:768px){
+    .bannerContainer img{
+        width:600px;
+    }
+    
 }

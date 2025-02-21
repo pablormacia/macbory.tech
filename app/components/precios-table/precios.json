@@ -1,86 +1,112 @@
 [
     {
+        "category": "Diagnóstico",
         "description": "Diagnóstico (bonificado)",
-        "precio": "$7200"
+        "precio": "$10000"
     },
     {
+        "category": "Domicilio",
         "description": "Servicio técnico a domicilio por hora",
         "precio": "$15800"
     },
     {
+        "category": "Remoto",
         "description": "Servicio técnico remoto por hora",
-        "precio": "$7200"
+        "precio": "$9000"
     },
     {
+        "category": "Entrega y retiro",
         "description": "Retiro y entrega normal 96 Hs",
-        "precio": "$7200"
+        "precio": "$8500"
     },
     {
+        "category": "Entrega y retiro",
         "description": "Retiro y entrega Express 24 Hs",
-        "precio": "$14300"
+        "precio": "$20000"
     },
     {
+        "category": "Computadoras",
         "description": "Formateo e instación (sin backup)",
-        "precio": "$28600"
+        "precio": "$35000"
     },
     {
+        "category": "Computadoras",
         "description": "Instalación de programas (c/u)",
-        "precio": "$7200"
+        "precio": "$8500"
     },
     {
+        "category": "Computadoras",
         "description": "Instalación de drivers",
-        "precio": "$7200"
+        "precio": "$8500"
     },
     {
+        "category": "Computadoras",
         "description": "Eliminación de malware",
-        "precio": "$8600"
+        "precio": "$10000"
     },
     {
+        "category": "Computadoras",
         "description": "Armado e instalación de PC",
-        "precio": "$40100"
+        "precio": "$50000"
     },
     {
-        "description": "Armado e instalación de PC",
-        "precio": "$40100"
-    },
-    {
-        "description": "Armado e instalación de PC",
-        "precio": "$40100"
-    },
-    {
+        "category": "Computadoras",
         "description": "Instalación/reemplazo de hardware",
-        "precio": "$10100"
+        "precio": "$14000"
     },
     {
+        "category": "Computadoras",
         "description": "Limpieza de hardware PC",
-        "precio": "$14300"
+        "precio": "$16000"
     },
     {
+        "category": "Computadoras",
         "description": "Limpieza de hardware Notebook",
-        "precio": "$21500"
+        "precio": "$25000"
     },
     {
-        "description": "Limpieza de hardware Notebook",
-        "precio": "$21500"
-    },
-    {
+        "category": "Computadoras",
         "description": "Cambio flex notebook",
-        "precio": "$20100"
+        "precio": "$25000"
     },
     {
+        "category": "Computadoras",
         "description": "Cambio teclado notebook",
-        "precio": "$14300"
+        "precio": "$20000"
     },
     {
+        "category": "Computadoras",
         "description": "Cambio pantalla notebook",
-        "precio": "$25800"
+        "precio": "$35000"
     },
     {
+        "category": "Computadoras",
         "description": "Reparación de bisagras notebook",
-        "precio": "$25800"
+        "precio": "$30000"
     },
     {
+        "category": "Celulares",
         "description": "Hard reset celulares y tablets",
-        "precio": "$15800"
+        "precio": "$20000"
+    },
+    {
+        "category": "Celulares",
+        "description": "Cambio de módulo",
+        "precio": "40% del valor del módulo"
+    },
+    {
+        "category": "Celulares",
+        "description": "Cambio de placa/pin de carga",
+        "precio": "$20000"
+    },
+    {
+        "category": "Celulares",
+        "description": "Cambio de batería",
+        "precio": "$20000"
+    },
+    {
+        "category": "Celulares",
+        "description": "Cambio de componentes",
+        "precio": "$20000"
     }
 ]

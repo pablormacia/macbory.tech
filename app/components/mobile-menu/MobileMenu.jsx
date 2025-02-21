@@ -13,13 +13,13 @@ const MobileMenu = ({ isOpen, toggleMenu }) => {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/servicio-tecnico-particulares">Servicio técnico</Link>
+              <Link href="/servicio-tecnico-particulares">Computadoras</Link>
             </li>
             <li>
-              <Link href="/desarrollo-web">Desarrollo web</Link>
+              <Link href="/servicio-tecnico-celulares">Celulares</Link>
             </li>
             <li>
-              <Link href="/clases-particulares">Clases particulares</Link>
+              <Link href="/lista-de-precios">Lista de precios</Link>
             </li>
           </ul>
         </nav>

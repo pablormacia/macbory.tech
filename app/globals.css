@@ -7,6 +7,8 @@
   color: #fff
 }
 
+
+
 a{
   text-decoration: none;
 }
@@ -17,19 +19,23 @@ body{
 }
 
 h1{
-  font-size: 16px;
+  font-size: 24px;
 }
 
 h2{
-  font-size: 13px;
+  font-size: 20px;
 }
 
 h3{
-  font-size: 12px;
+  font-size: 16px;
 }
 
 p{
-  font-size: 11px;
+  font-size: 14px;
+}
+
+li{
+  font-size: 14px;
 }
 
 .purpleText {

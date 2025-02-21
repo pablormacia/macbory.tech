@@ -36,6 +36,22 @@
     display: none;
   }
 
+  .active{
+    position: relative;
+    /* border-bottom: 2px salmon solid; */
+}
+
+.active::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top:24px;
+    height: 2px; /* Altura del borde */
+    width: 100%;
+    background: linear-gradient(90deg, #169DE9 7.16%, #9611A2 100%);
+}
+
   @media (min-width: 768px) {
     .onlyMobile {
       display: none;

@@ -4,7 +4,7 @@ function Title({title, subtitle}) {
   return (
     <div className={styles.title}>
           <h1>&gt;_ {title}</h1>
-          <h2>&gt;_ {subtitle}</h2>
+          <h2> {subtitle}</h2>
     </div>
   )
 }

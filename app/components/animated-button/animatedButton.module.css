@@ -1,0 +1,11 @@
+.animatedButton{
+  display: flex;
+    justify-content: center;    
+  }
+
+  .btn{
+    background-color:#169DE9;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-top:16px;
+  }
