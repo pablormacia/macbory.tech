@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import styles from './animatedButton.module.css'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 function AnimatedButton() {
     return (
@@ -10,8 +11,8 @@ function AnimatedButton() {
                 }} 
                 className={styles.btn}
             >
-                <a href="/lista-de-precios" 
-                >Lista de precios 2025</a>
+                <Link href="/lista-de-precios" 
+                >Lista de precios 2025</Link>
             </motion.div>
         </article>
     )

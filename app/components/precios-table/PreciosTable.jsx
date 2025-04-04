@@ -4,7 +4,7 @@ import items from './precios.json'
 function PreciosTable() {
   return (
     <div className={styles.tableContainer}>
-        <h2>Precios (Febrero 2025)</h2>
+        <h2>Precios de mano de obra (Febrero 2025)</h2>
         <br />
         <table className={styles.table}>
         <thead>

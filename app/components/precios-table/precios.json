@@ -1,112 +1,117 @@
 [
     {
-        "category": "Diagnóstico",
+        "category": "Diagnóstico en taller",
         "description": "Diagnóstico (bonificado)",
-        "precio": "$10000"
+        "precio": "$10.000"
     },
     {
         "category": "Domicilio",
         "description": "Servicio técnico a domicilio por hora",
-        "precio": "$15800"
+        "precio": "$15.800"
     },
     {
         "category": "Remoto",
         "description": "Servicio técnico remoto por hora",
-        "precio": "$9000"
+        "precio": "$9.000"
     },
     {
-        "category": "Entrega y retiro",
-        "description": "Retiro y entrega normal 96 Hs",
-        "precio": "$8500"
+        "category": "Retiro y entrega",
+        "description": "Normal 96 Hs",
+        "precio": "$8.500"
     },
     {
-        "category": "Entrega y retiro",
-        "description": "Retiro y entrega Express 24 Hs",
-        "precio": "$20000"
+        "category": "Retiro y entrega",
+        "description": "Express 24 Hs*",
+        "precio": "$30.000"
     },
     {
         "category": "Computadoras",
-        "description": "Formateo e instación (sin backup)",
-        "precio": "$35000"
+        "description": "Formateo e instalación (sin backup)",
+        "precio": "$35.000"
+    },
+    {
+        "category": "Computadoras",
+        "description": "Combo 'como nueva...'. Formateo + instalación + programas + drivers",
+        "precio": "$50.000"
     },
     {
         "category": "Computadoras",
         "description": "Instalación de programas (c/u)",
-        "precio": "$8500"
+        "precio": "$8.500"
     },
     {
         "category": "Computadoras",
         "description": "Instalación de drivers",
-        "precio": "$8500"
+        "precio": "$8.500"
     },
     {
         "category": "Computadoras",
         "description": "Eliminación de malware",
-        "precio": "$10000"
+        "precio": "$10.000"
     },
     {
         "category": "Computadoras",
         "description": "Armado e instalación de PC",
-        "precio": "$50000"
+        "precio": "$50.000"
     },
     {
         "category": "Computadoras",
         "description": "Instalación/reemplazo de hardware",
-        "precio": "$14000"
+        "precio": "$14.000"
     },
     {
         "category": "Computadoras",
         "description": "Limpieza de hardware PC",
-        "precio": "$16000"
+        "precio": "$16.000"
     },
     {
-        "category": "Computadoras",
+        "category": "Notebooks",
         "description": "Limpieza de hardware Notebook",
-        "precio": "$25000"
+        "precio": "$25.000"
     },
     {
-        "category": "Computadoras",
+        "category": "Notebooks",
         "description": "Cambio flex notebook",
-        "precio": "$25000"
+        "precio": "$25.000"
     },
     {
-        "category": "Computadoras",
+        "category": "Notebooks",
         "description": "Cambio teclado notebook",
-        "precio": "$20000"
+        "precio": "$20.000"
     },
     {
-        "category": "Computadoras",
+        "category": "Notebooks",
         "description": "Cambio pantalla notebook",
-        "precio": "$35000"
+        "precio": "$35.000"
     },
     {
-        "category": "Computadoras",
+        "category": "Notebooks",
         "description": "Reparación de bisagras notebook",
-        "precio": "$30000"
+        "precio": "$30.000"
     },
     {
         "category": "Celulares",
         "description": "Hard reset celulares y tablets",
-        "precio": "$20000"
+        "precio": "$20.000"
     },
     {
         "category": "Celulares",
         "description": "Cambio de módulo",
-        "precio": "40% del valor del módulo"
+        "precio": "50% del valor del módulo"
     },
     {
         "category": "Celulares",
         "description": "Cambio de placa/pin de carga",
-        "precio": "$20000"
+        "precio": "$20.000"
     },
     {
         "category": "Celulares",
         "description": "Cambio de batería",
-        "precio": "$20000"
+        "precio": "$20.000"
     },
     {
         "category": "Celulares",
-        "description": "Cambio de componentes",
-        "precio": "$20000"
+        "description": "Cambio de componentes (cámara, micrófono, etc)",
+        "precio": "$20.000"
     }
 ]

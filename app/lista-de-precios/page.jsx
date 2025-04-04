@@ -19,7 +19,7 @@ function page() {
       <div className={styles.description}>
         <h3>Aclaraciones</h3>
         <p>El servicio técnico a domicilio y el retiro y entrega de equipos está estipulado para las zonas cercanas a Lanús. Consultar por otras zonas. <br />
-        Los tiempos de reparación están sujetos a disponibilidad de hardware.<br /><br />
+        *Los tiempos de reparación están sujetos a disponibilidad de hardware.<br /><br />
         <strong>Medios de pago: <br />
         Efectivo - Transferencia</strong>
 
