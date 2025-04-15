@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server"
+/* import { NextResponse } from "next/server"
 import { prisma } from "@/lib/prisma"
 
 function generarNumeroOrden(id) {
@@ -34,4 +34,4 @@ export async function POST(req) {
     console.error(error)
     return NextResponse.json({ error: "Error al guardar" }, { status: 500 })
   }
-}
+} */

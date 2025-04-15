@@ -6,7 +6,7 @@ import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Title from "./components/title/Title";
 import ContratarButton from "./components/contratar-button/ContratarButton";
-import AnimatedButton from "./components/animated-button/animatedButton";
+import AnimatedButton from "./components/animated-button/AnimatedButton";
 import { easeIn, motion } from "framer-motion";
 import Image from "next/image";
 import phoneParts from "./assets/phone-parts.png";
